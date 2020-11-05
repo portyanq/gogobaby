@@ -23,5 +23,63 @@ h2{
     height: 400px;
 }
 #mapid{
-    height: 400px;
+    height: 550px;
+    border-radius: 50%;
+
+}
+.btn-primary{
+    background-color: #cc99ff;
+    border: #cc99ff;
+    margin: 7px;
+    border-radius: 17px 17px 0 0 ;
+}
+.btn-primary:hover{
+    transition: .2s;
+    transform: scale(1.1);
+    background-color: #cc99ff;
+    border-radius: 0 0 17px 17px ;
+}
+.welcome{
+    background-color: #ccff99;
+    border-radius: 7%;
+}
+.desk{
+    background: url(/img/desk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px;
+}
+.table{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.main-slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .main__header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .main__header h1 {
+    font-size: 33px;
+  }
+    td, th{
+      border: none !important;
+  }
+  .photos-wrapper{
+    height: ;
+  }
+  .photos-inner{
+      
+}
+.photos-inner img{
+      
 }
