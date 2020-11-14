@@ -1,0 +1,9 @@
+{
+  " кодировка " : " UTF-8 " ,
+  " заголовки " : {
+    " / * " : {
+      " X-Author " : " portyanq + radibogov " ,
+      " Access-Control-Allow-Origin " : " * "
+    }
+  }
+}
