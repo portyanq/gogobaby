@@ -6,6 +6,7 @@
 a{
     text-decoration: none;
 }
+.wrapper{}
 .bg{
     background-image: url(../img/bg.png);
     width: 100%;
@@ -119,7 +120,7 @@ span{
 }
 .navigation li{
     position: absolute;
-    width: 1200px;
+    width: 200px;
     transition: .1s;
 }
 h2{
@@ -260,8 +261,8 @@ h2{
     position: absolute;
     z-index: 1;
     background-color: #fff;
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
 /*       clip-path: circle(270px at 0 150px); */
     clip-path: circle(0px at 0 150px);
     transition: .5s;
