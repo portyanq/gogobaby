@@ -69,9 +69,58 @@ span{
     justify-content: space-between;
     align-items: left;
     text-align: left;
+    position: absolute;
+    top: 40px;
+    z-index: 999;
 } 
+
 .navigation a{
-    color: #fff;
+    color: #000;
+}
+.navigation li:nth-child(1){
+    transition-delay: .1s;
+    top:30px;
+    left: -200px;
+}
+.navigation li:nth-child(2){
+    transition-delay: .13s;
+    top: 55px;
+    left: -200px;
+}
+.navigation li:nth-child(3){
+    transition-delay: .16s;
+    top: 80px;
+    left: -200px;
+}
+.navigation li:nth-child(4){
+     transition-delay: .19s;
+    top: 105px;
+    left: -200px;
+}
+.navigation li:nth-child(5){
+    transition-delay: .21s;
+    top: 130px;
+    left: -200px;
+}
+.navigation li:nth-child(6){
+    transition-delay: .24s;
+    top: 155px;
+    left: -200px;
+}
+    .navigation li:nth-child(7){
+    transition-delay: .27s;
+    top: 180px;
+    left: -200px;
+ }
+    .navigation li:nth-child(8){
+    transition-delay: .30s;
+    top: 205px;
+    left: -200px;
+}
+.navigation li{
+    position: absolute;
+    width: 1200px;
+    transition: .1s;
 }
 h2{
     text-align: center;
@@ -168,3 +217,52 @@ h2{
     margin-bottom: 15px;
     margin-top: 15px;
 }
+.ham {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 400ms;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .hamRotate.active {
+    transform: rotate(45deg);
+  }
+  .hamRotate180.active {
+    transform: rotate(180deg);
+  }
+  .line {
+    fill:none;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke:#fff;
+    stroke-width:5.5;
+    stroke-linecap:round;
+  }
+  .ham1 .top {
+    stroke-dasharray: 40 139;
+  }
+  .ham1 .bottom {
+    stroke-dasharray: 40 180;
+  }
+  .ham1.active .top {
+    stroke-dashoffset: -98px;
+  }
+  .ham1.active .bottom {
+    stroke-dashoffset: -138px;
+  }
+  .hamburg{
+      z-index: 99999;
+      width: 100px;
+      position: absolute;
+  }
+  .circle{
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    height: 500px;
+    width: 500px;
+/*       clip-path: circle(270px at 0 150px); */
+    clip-path: circle(0px at 0 150px);
+    transition: .5s;
+  }
